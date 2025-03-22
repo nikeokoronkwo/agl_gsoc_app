@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           displayLarge: TextStyle(fontSize: 20)
         )
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Home'),
     );
   }
 }
@@ -79,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
+          spacing: 10,
           children: <Widget>[
             Text.rich(TextSpan(text: 'Name: ', style: Theme.of(context).textTheme.displayLarge, children: [
               TextSpan(text: 'Nikechukwu Okoronkwo', style: TextStyle(fontWeight: FontWeight.bold))
